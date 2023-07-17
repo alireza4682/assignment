@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0, 0%, 96%;
+    --Button-font: 225, 14%, 11%;
+    --Button-primary: 48, 97%, 60%;
+    --Font-body: 210, 8%, 48%;
+    --Font-Dark: 213, 15%, 14%;
+    --Font-disable: 210, 9%, 75%;
+    --Font-title: 210, 3%, 60%;
+    --Font-primary: 218, 10%, 31%;
+    --Stroke1: 210, 9%, 91%;
+    --Stroke2: 210, 9%, 91%;
+    --Google: 0, 0%, 96%;
+    --Logo: 218, 13%, 26%;
+
+    --box-shadow-nav: 0px 1px 6px 0px rgba(100, 99, 99, 0.1),
+      0px 1px 2px 0px rgba(236, 236, 235, 0.4);
+    --box-shadow-card: 0px 1px 10px 0px rgba(100, 99, 99, 0.15),
+      0px 1px 2px 0px rgba(236, 236, 235, 0.5);
+    --box-shadow-QR: 0px 1px 6px 0px rgba(100, 99, 99, 0.1),
+      0px 1px 2px 0px rgba(236, 236, 235, 0.4);
+  }
+
+  .dark {
+    --background: 225, 14%, 11%;
+    --Button-font: 225, 14%, 11%;
+    --Button-primary: 48, 97%, 60%;
+    --Font-body: 216, 12%, 75%;
+    --Font-Dark: 215, 11%, 56%;
+    --Font-disable: 216, 10%, 40%;
+    --Font-title: 215, 11%, 56%;
+    --Font-primary: 216, 14%, 93%;
+    --Stroke1: 217, 23%, 35%;
+    --Stroke2: 218, 13%, 17%;
+    --Google: 208, 19%, 14%;
+    --Logo: 216, 14%, 93%;
+
+    --box-shadow-nav: 0px 1px 6px 0px rgba(20, 20, 20, 0.3),
+      0px 2px 4px 0px rgba(24, 24, 24, 0.4);
+    --box-shadow-card: 0px 1px 10px 0px rgba(20, 20, 20, 0.4),
+      0px 2px 8px 0px rgba(24, 24, 24, 0.4);
+    --box-shadow-QR: 0px 1px 10px 0px rgba(20, 20, 20, 0.4),
+      0px 2px 8px 0px rgba(24, 24, 24, 0.4);
+  }
+}
