@@ -1,4 +1,6 @@
 {
   "server-component": {
-    "welcome": "خوش آمدید"
-  }}
+    "welcome": "خوش آمدید",
+    "lang": "فا"
+  }
+}

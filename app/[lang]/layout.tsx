@@ -4,6 +4,7 @@ import { Roboto } from "next/font/google";
 import { i18n } from "../../i18n-config";
 import localFont from "next/font/local";
 import Navbar from "./components/navbar";
+import { Providers } from "./components/providers";
 
 const IranSans = localFont({
   src: "../../public/fonts/Sans a4fran3.woff",
@@ -31,8 +32,12 @@ export default function RootLayout({
       <body
         className={params.lang === "en" ? roboto.className : IranSans.className}
       >
-        <Navbar />
-        {children}
+        <Providers>
+          <div className="h-screen w-screen bg-background">
+            <Navbar />
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );

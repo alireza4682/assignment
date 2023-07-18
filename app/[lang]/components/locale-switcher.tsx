@@ -14,17 +14,22 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div>
-      <p>Locale switcher:</p>
-      <ul>
-        {i18n.locales.map((locale) => {
-          return (
-            <li key={locale}>
-              <Link href={redirectedPathName(locale)}>{locale}</Link>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="flex flex-col  bg-cardDark shadow-nav rounded-[3px]">
+      <p className="text-FontPrimary text-[16px] bg-cardDark font-bold5 p-4">
+        Website Language
+      </p>
+      <Link
+        href={redirectedPathName(i18n.locales[0])}
+        className=" text-normal text-FontPrimary bg-background p-4"
+      >
+        English
+      </Link>
+      <Link
+        href={redirectedPathName(i18n.locales[1])}
+        className=" text-normal text-FontBody p-4"
+      >
+        Farsi
+      </Link>
     </div>
   );
 }

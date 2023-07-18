@@ -12,6 +12,9 @@ module.exports = {
         ButtonPrimary: "hsl(var(--Button-primary))",
         Stroke1: "hsl(var(--Stroke1))",
         Stroke2: "hsl(var(--Stroke2))",
+        Google: "hsl(var(--Google))",
+        cardLight: "hsl(var(--card-light))",
+        cardDark: "hsl(var(--card-dark))",
       },
     },
     boxShadow: {
@@ -26,8 +29,8 @@ module.exports = {
       FontDisable: "hsl(var(--Font-disable))",
       FontTitle: "hsl(var(--Font-title))",
       FontPrimary: "hsl(var(--Font-primary))",
-      Google: "hsl(var(--Google))",
       Logo: "hsl(var(--Logo))",
+      signUp: "hsl(var(--sign-up))",
     },
     fontSize: {
       big: "18px",

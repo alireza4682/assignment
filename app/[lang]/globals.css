@@ -16,6 +16,9 @@
     --Stroke2: 210, 9%, 91%;
     --Google: 0, 0%, 96%;
     --Logo: 218, 13%, 26%;
+    --card-light: 0, 0%, 100%;
+    --card-dark: 0, 0%, 100%;
+    --sign-up: 225, 14%, 11%;
 
     --box-shadow-nav: 0px 1px 6px 0px rgba(100, 99, 99, 0.1),
       0px 1px 2px 0px rgba(236, 236, 235, 0.4);
@@ -38,6 +41,9 @@
     --Stroke2: 218, 13%, 17%;
     --Google: 208, 19%, 14%;
     --Logo: 216, 14%, 93%;
+    --card-light: 214, 14%, 20%;
+    --card-dark: 208, 19%, 14%;
+    --sign-up: 46, 91%, 49%;
 
     --box-shadow-nav: 0px 1px 6px 0px rgba(20, 20, 20, 0.3),
       0px 2px 4px 0px rgba(24, 24, 24, 0.4);

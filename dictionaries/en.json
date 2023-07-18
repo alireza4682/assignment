@@ -1,5 +1,6 @@
 {
   "server-component": {
-    "welcome": "Welcome"
+    "welcome": "Welcome",
+    "lang": "En"
   }
 }
