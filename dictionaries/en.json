@@ -1,6 +1,10 @@
 {
   "server-component": {
     "welcome": "Welcome",
-    "lang": "En"
+    "lang": "En",
+    "Blog": "Blog",
+    "AboutUs":"About us",
+    "Pricing": "Pricing",
+    "Products": "Products"
   }
 }

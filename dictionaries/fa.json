@@ -1,6 +1,10 @@
 {
   "server-component": {
     "welcome": "خوش آمدید",
-    "lang": "فا"
+    "lang": "فا",
+    "Blog": "بلاگ",
+    "AboutUs":"درباره ما",
+    "Pricing": "تعرفه",
+    "Products": "محصولات"
   }
 }

@@ -6,7 +6,7 @@ import GoogleImage from "../../../public/search1.png";
 
 export const Main = () => {
   return (
-    <div className="shadow-card py-[30px] px-[40px] rounded-[5px] mt-[97px] w-fit bg-cardLight">
+    <div className="shadow-card py-[30px] px-[40px] rounded-[5px] mt-[97px] w-full md:w-3/4 lg:w-[948px] bg-cardLight">
       <h1 className="text-extraBig text-FontPrimary font-bold7">
         Login to Iran source
       </h1>

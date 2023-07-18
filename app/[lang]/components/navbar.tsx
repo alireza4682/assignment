@@ -2,24 +2,31 @@ import { Button } from "@mui/base";
 import Link from "next/link";
 import ChangeLange from "./locale-ui-change";
 import ThemeSwitch from "./themeChanger";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
 
-export default function Navbar() {
+export default async function Navbar({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
   return (
     <div className="flex flex-row justify-between px-[30px] py-[12px] z-10 shadow-nav bg-cardLight sticky">
       <h1 className="text-big text-Logo font-bold5">Logo place</h1>
       <div className="flex flex-row gap-[10px] items-center tracking-low">
         <div className="flex flex-row  gap-[10px]">
           <Button className="flex flex-col justify-center align-middle gap-2 text-FontBody text-normal font-normal4 py-[6px] px-[16px]">
-            <Link href={"/"}>Blog</Link>
+            <Link href={"/"}>{dictionary["server-component"].Blog}</Link>
           </Button>
           <Button className="flex flex-col justify-center align-middle gap-2 text-FontBody text-normal font-normal4 py-[6px] px-[16px]">
-            <Link href={"/"}>About us</Link>
+            <Link href={"/"}>{dictionary["server-component"].AboutUs}</Link>
           </Button>
           <Button className="flex flex-col justify-center align-middle gap-2 text-FontBody text-normal font-normal4 py-[6px] px-[16px]">
-            <Link href={"/"}>Pricing</Link>
+            <Link href={"/"}>{dictionary["server-component"].Pricing}</Link>
           </Button>
           <Button className="flex flex-col justify-center align-middle gap-2 text-FontBody text-normal font-normal4 py-[6px] px-[16px]">
-            <Link href={"/"}>Products</Link>
+            <Link href={"/"}>{dictionary["server-component"].Products}</Link>
           </Button>
         </div>
         <div className="">

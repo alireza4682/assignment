@@ -25,7 +25,7 @@ export default function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: { lang: "en" | "fa" };
 }) {
   return (
     <html lang={params.lang} suppressHydrationWarning>
@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <Providers>
           <div className="h-screen w-screen bg-background">
-            <Navbar />
+            <Navbar params={params} />
             {children}
           </div>
         </Providers>
